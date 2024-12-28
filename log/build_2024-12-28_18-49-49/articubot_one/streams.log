@@ -1,0 +1,54 @@
+[0.081s] Invoking command in '/home/nathan/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nathan/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nathan/dev_ws/install/articubot_one
+[0.299s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.621s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.682s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.828s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.848s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.851s] -- Added test 'lint_cmake' to check CMake code style
+[0.853s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.856s] -- Added test 'xmllint' to check XML markup files
+[0.866s] -- Configuring done
+[0.899s] -- Generating done
+[0.905s] -- Build files have been written to: /home/nathan/dev_ws/build/articubot_one
+[0.925s] Invoked command in '/home/nathan/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/nathan/dev_ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/nathan/dev_ws/install/articubot_one
+[0.934s] Invoking command in '/home/nathan/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nathan/dev_ws/build/articubot_one -- -j8 -l8
+[1.010s] Invoked command in '/home/nathan/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/nathan/dev_ws/build/articubot_one -- -j8 -l8
+[1.027s] Invoking command in '/home/nathan/dev_ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nathan/dev_ws/build/articubot_one
+[1.036s] -- Install configuration: ""
+[1.037s] -- Execute custom install script
+[1.039s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/config/drive_bot.rviz
+[1.052s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/config/empty.yaml
+[1.063s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/config/gaz_ros2_ctl_use_sim.yaml
+[1.077s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/config/gazebo_params.yaml
+[1.090s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/config/main.rviz
+[1.110s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/config/map.rviz
+[1.121s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/config/my_controllers.yaml
+[1.134s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/config/nav2_params.yaml
+[1.147s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/config/twist_mux.yaml
+[1.155s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/config/view_bot.rviz
+[1.167s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/description/gazebo_control.xacro
+[1.197s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/description/inertial_macros.xacro
+[1.209s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/description/robot.urdf.xacro
+[1.222s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/description/robot_core.xacro
+[1.232s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/description/ros2_control.xacro
+[1.246s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/launch/launch_robot.launch.py
+[1.263s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/launch/launch_sim.launch.py
+[1.279s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/launch/rsp.launch.py
+[1.293s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/worlds/empty.world
+[1.304s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/worlds/obstacles.world
+[1.315s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/ament_index/resource_index/package_run_dependencies/articubot_one
+[1.328s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/ament_index/resource_index/parent_prefix_path/articubot_one
+[1.341s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.sh
+[1.352s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/environment/ament_prefix_path.dsv
+[1.362s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/environment/path.sh
+[1.373s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/environment/path.dsv
+[1.404s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/local_setup.bash
+[1.420s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/local_setup.sh
+[1.433s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/local_setup.zsh
+[1.443s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/local_setup.dsv
+[1.454s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/package.dsv
+[1.467s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/ament_index/resource_index/packages/articubot_one
+[1.478s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig.cmake
+[1.487s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/cmake/articubot_oneConfig-version.cmake
+[1.505s] -- Symlinking: /home/nathan/dev_ws/install/articubot_one/share/articubot_one/package.xml
+[1.525s] Invoked command in '/home/nathan/dev_ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/nathan/dev_ws/build/articubot_one
